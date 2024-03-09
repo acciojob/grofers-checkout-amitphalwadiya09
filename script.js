@@ -12,7 +12,7 @@ const getSum = () => {
 
     let table = document.querySelector('table');
     let newRow = table.insertRow(-1);
-	newRow.className="ans"
+	newRow.id = "ans";
     let cell1 = newRow.insertCell(0);
     let cell2 = newRow.insertCell(1);
 
